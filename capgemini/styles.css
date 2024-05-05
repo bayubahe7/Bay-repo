@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-body{
+/*body{
   font-family: Ubuntu, sans-serif;
   background-color: #fff;
   color: #333
@@ -25,7 +25,7 @@ a:hover {
 
 .header-nav-bar:hover {
    background-color: #fff;
-   color: white;
+   color: black;
 }
 
 .navdiv1 {
@@ -77,4 +77,97 @@ li {
   justify-content: space-between;
   margin-left: 10px;
   gap: 15px;
+}
+*/
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu , sans-serif;
+}
+.header-nav-bar{
+  position: relative;
+  display: flex;
+  font-size: medium;
+  font-weight: 400;
+  font-stretch: 100%;
+  box-sizing: border-box;
+  margin-top: -900px;
+  color: white;
+  align-items: center;
+  padding-top: 20px;
+}
+ul{
+  display: flex;
+}
+li{
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 25px;
+  font-weight: 400;
+}
+.navdiv1{
+  margin-left: 40px;
+}
+.navdiv3{
+  margin-left: 250px;
+}
+.search-icon-div{
+  margin-left: 300px;
+  margin-top: -15px;
+}
+.search-icon-div p{
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.header-nav-bar:hover{
+  background: white;
+  width: 100%;
+  color: black;
+  border: 2px solid white;
+  z-index: 1;
+}
+.start-image{
+  width: 100%;
+}
+.sec-div1{
+  position: relative;
+  color: white;
+  box-sizing: border-box;
+  margin-left: 60px;
+  margin-top: 450px;
+  z-index: 1;
+  padding: 60px 208px 80px 40px;
+  display: inline-block;
+  border-radius: 4px;
+}
+.buffalodiv{
+  display: flex;
+  margin-top: 150px;
+  margin-left: 80px;
+}
+.buffalodiv > img{
+  position: absolute;
+  margin-left: 770px;
+}
+.buffalotext{
+  position: relative;
+  background: white;
+  border: 1px solid rgb(248, 247, 245);
+  padding: 30px 120px 30px 30px;
+  margin-top: 40px;
+  z-index: 1;
+}
+.buffalotext a{
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  float: right;
+  color: black;
+  margin-top: 30px;
+  margin-right: -100px;
+  margin-bottom: -10px;
 }
